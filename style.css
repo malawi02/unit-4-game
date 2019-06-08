@@ -1,0 +1,169 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    -webkit-text-stroke: .02rem black;
+    background-image: url('../images/berrynicebackground2.jpg');
+  }
+  
+  body {
+    width: 100%;
+    background-color: rgba(0, 0, 0, .4);
+  }
+  
+  .banner {
+    border-radius: 12%;
+    border-color: black;
+    border-width: 0.35rem;
+    border-style: outset;
+    width: 100%;
+    height: 25rem;
+    -webkit-box-shadow: 0 0 1rem 0 #0E440E;
+    box-shadow: 0 0 1rem 0 #0E440E, 0 0 .5rem .1rem whitesmoke;
+    ;
+  }
+  
+  .instructions {
+    border-radius: 3%;
+    color: white;
+    background-color: rgba(9, 0, 18, 0.9);
+    margin-top: 1%;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    text-shadow: 0.02rem 0.02rem 0.03rem #000, .02rem .02rem .02rem white;
+    ;
+    -webkit-box-shadow: 0 0 1rem 0 gold, 0 0 1rem .1rem whitesmoke;
+    box-shadow: 0 0 1rem 0 gold, 0 0 1rem .1rem whitesmoke;
+    ;
+    -webkit-text-stroke: .01rem slategrey;
+  }
+  
+  .btn {
+    cursor: pointer;
+    margin: 0;
+    -webkit-box-shadow: 0 0 1rem .01rem gold;
+    box-shadow: 0 0 1rem .01rem gold;
+  }
+  
+  .berry {
+    border-color: whitesmoke;
+    ;
+    border-style: solid;
+    border-width: 0.14rem;
+    border-radius: 80%;
+    float: left;
+    height: 8rem;
+    width: 6rem;
+    -webkit-box-shadow: 0 0 .5rem .01rem gold;
+    box-shadow: 0 0 .5rem .01rem gold;
+  }
+  
+  .wins-losses {
+    margin-top: 5%;
+    background-color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Macondo';
+    font-size: 2em;
+    color: crimson;
+    text-shadow: 2px 1px 4px black;
+    border-style: double groove;
+    border-color: black;
+    border-radius: 20%;
+  }
+  
+  #goal-number-text {
+    font-weight: bolder;
+    color: green;
+    font-size: ;
+  }
+  
+  #x-concentration-text {
+    font-size: 1.5em;
+    color: #E718E7;
+    outline-color: black;
+    -webkit-text-stroke: .01rem #C20884;
+  }
+  
+  .button {
+    background: none;
+  }
+  
+  .winner {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #00ff00;
+  }
+  
+  .loser {
+    background-color: darkred;
+    color: whitesmoke;
+    text-align: center;
+  }
+  
+  #current-number {
+    color: #0DD31E;
+    font-size: 150%;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgba(14, 1, 4, 0.9);
+    border-radius: 19%;
+    border-style: inset;
+    border-color: #000000;
+    border-width: 4px;
+    text-shadow: .01rem .01rem .02rem #000000;
+    -webkit-text-stroke: .01rem #390C81;
+    -webkit-box-shadow: 0 0 .5rem .04rem #00ff00;
+    box-shadow: 0 0 .5rem .04rem #00ff00;
+  }
+  
+  #goal {
+    border-width: .04rem;
+    border-style: groove;
+    border-color: #000000;
+    -webkit-box-shadow: 0 0 .5rem .04rem violet;
+    box-shadow: 0 0 .5rem .04rem violet;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #0B0B0C;
+    text-shadow: .01rem .01rem .02rem #000000;
+  }
+  
+  #berry1 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/Berry1-cropped.png');
+  }
+  
+  #berry2 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/Berry2-cropped.png');
+  }
+  
+  #berry3 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/Berry3-cropped.png');
+  }
+  
+  #berry4 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/Berry4-cropped.png');
+  }
+  
+  #start {
+    -webkit-box-shadow: 0 0 1rem .02rem black;
+    box-shadow: 0 0 .4rem .02rem black, 0 0 1rem .01rem whitesmoke;
+  }
+  
+  #stats {
+    -webkit-box-shadow: 0 0 .5rem .02rem whitesmoke, 0 0 .6rem .01rem black;
+    box-shadow: 0 0 .5rem .02rem whitesmoke, 0 0 .6rem .01rem black;
+  }
