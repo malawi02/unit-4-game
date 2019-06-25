@@ -1,65 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en-us">
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Unit-4-game</title>
-    <style type="text/css">
+    <title>Crystals Collector</title>
 
-    .crsta-image {
-        width: 300px;
-        height: 300px;
-    }
-        
-    </style>
-
-</head>
-<body> 
-
-    <h1> Number to Guess:  <span id="number-to-guess"></span></h1>
-    <div id="crystals"></h1>
-
-        <img class="crystal-image" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" alt="crystals">"
-    </div>
     
-
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <script type="text/javascript" src="assets/javascript/crystalsCollector.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
 
-<script type="text/javascript">
+    <h1 id="title">CrystalsCollector!</h1>
 
-  var targetNumber = 50;
+    <div id="rules-area">
+      <h4>You will be given a random number at the start of the game.</h4>
+      <h4>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</h4>
+      <h4>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</h4>
+      <h4>The value of each crystal is hidden from you until you click on it.</h4>
+      <h4>Each time when the game starts, the game will change the values of each crystal</h4>
+    </div>
 
-  $("#number-to-guess").text(targetNumber);
+    <div id="screen">
+      
+      <div id="random-area"></div>
+    
+      <div id="win-area"></div>
+    </div>
 
-var counter = 0;
+    <div>
+      
+      <div id="crystal-area"></div>
+      <div id="score-title">Your total score is:</div>
 
-var numberOptions = [10, 5, 3, 7];
+      <div id="score-area"></div>
+    </div>
 
-for (var i = 0; i < numberOptions.length; i++) {
-
-var imageCrystal = $("<img>");
-
-
-  $(".crystal-image").on("click", function() {
-
-counter += 10;
-
-alert("New score: " + counter);
-
-if (counter === targetNumber) {
-    alert("You win!");
-    }
-
-  });
-
-  </script>
-</body>
-</html>
-
-
-
-
-
-
-
+  </body>
+   </html>
